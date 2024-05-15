@@ -6,8 +6,8 @@
   </head>
   <body class="">
     <div class=" grid place-content-center mt-5">
-      <input class="" id="taskInput" type="text" placeholder="Añadir tarea" />
-      <button class="bg-slate-400" onclick="addTask()">Añadir</button>
+      <input onkeypress="addTask()" class="" id="taskInput" type="text" placeholder="Añadir tarea" />
+      <button class="bg-slate-400 rounded-xl mt-3" onclick="addTask()">Añadir</button>
       <ul id="taskList"></ul>
     </div>
     <script src="app.js"></script>
