@@ -1,3 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+#taskList li {
+    margin: 10px 0;
+}
+.delete {
+    margin-left: 10px;
+    color: red;
+    cursor: pointer;
+}

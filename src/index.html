@@ -1,16 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
     <link rel="stylesheet" href="output.css">
-</head>
-<body class="bg-slate-500">
-    <h1 class="text-3xl bg-black font-bold underline">
-        Hello world!
-      </h1>
-
-      <script src="app.js"></script>
-</body>
+  </head>
+  <body class="">
+    <div class=" grid place-content-center mt-5">
+      <input class="" id="taskInput" type="text" placeholder="Añadir tarea" />
+      <button class="bg-slate-400" onclick="addTask()">Añadir</button>
+      <ul id="taskList"></ul>
+    </div>
+    <script src="app.js"></script>
+  </body>
 </html>

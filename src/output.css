@@ -554,15 +554,45 @@ video {
   --tw-contain-style:  ;
 }
 
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
+.mt-5 {
+  margin-top: 1.25rem;
 }
 
-.font-bold {
-  font-weight: 700;
+.flex {
+  display: flex;
 }
 
-.underline {
-  text-decoration-line: underline;
+.grid {
+  display: grid;
+}
+
+.place-content-center {
+  place-content: center;
+}
+
+.place-self-center {
+  place-self: center;
+}
+
+.rounded-xl {
+  border-radius: 0.75rem;
+}
+
+.rounded-full {
+  border-radius: 9999px;
+}
+
+.bg-slate-400 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(148 163 184 / var(--tw-bg-opacity));
+}
+
+#taskList li {
+  margin: 10px 0;
+}
+
+.delete {
+  margin-left: 10px;
+  color: red;
+  cursor: pointer;
 }
